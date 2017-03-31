@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп Borodinski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header class="page-header">
+      <h1 class="vissually-hidden">Барбершоп «Бородинский» - истинно мужская классика</h1>
+      <div class="page-header__logo">
+        <img src="img/logo.svg" width="" height="" alt="Барбершоп «Бородинский»">
+      </div>
+      <nav class="main-nav  main-nav--closed  main-nav-nojs">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a>Главная</a></li>
+            <li class="main-nav__item"><a>Наши работы</a></li>
+            <li class="main-nav__item  main-nav__item--active"><a>Записаться</a></li>
+            <li class="main-nav__item"><a>Контакты</a></li>
+            <li class="main-nav__item"><a>HTML Academy</a></li>
+          </ul>
+          <ul class="main-nav__user-list">
+            <li class="main-nav__user-item"><a class="main-nav__user-login" href="#" title="Войти">Вход</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <form class="main-form"  action="https://echo.htmlacademy.ru" method="post">
+      <h2 class="main-form__title">Записаться на стрижку</h2>
+      <a class="main-form__to-main-btn  btn" href="index.html">На главную</a>
+      <input type="text" name="Last name" placeholder="Фамилия">
+      <input type="text" name="First name" placeholder="Имя">
+      <input type="text" name="Patronymic" placeholder="Отчество">
+
+      <input type="tel" name="Phone number" placeholder="Контактный телефон">
+      <input type="email" name="E-mail" placeholder="Контактный e-mail">
+      <textarea name="Additional information" rows="5" placeholder="Доп. информация для мастера"></textarea>
+
+      <ul class="main-form__radio">
+        <b class="main-form__radio-title">Выберите модель бороды:</b>
+        <li class="main-form__radio-item">
+          <input type="radio" name="Beard shape" id="beard-shape-1" checked>
+          <label for="beard-shape-1"><span>адмирал</span><img src="" width="" height=""></label>
+        </li>
+        <li class="main-form__radio-item">
+          <input type="radio" name="Beard shape" id="beard-shape-2">
+          <label for="beard-shape-2"><span>лесоруб</span><img src="" width="" height=""></label>
+        </li>
+        <li class="main-form__radio-item">
+          <input type="radio" name="Beard shape" id="beard-shape-3">
+          <label for="beard-shape-3"><span>полярник</span><img src="" width="" height=""></label>
+        </li>
+        <li class="main-form__radio-item">
+          <input type="radio" name="Beard shape" id="beard-shape-4">
+          <label for="beard-shape-4"><span>боярин</span><img src="" width="" height=""></label>
+        </li>
+        <li class="main-form__radio-item">
+          <input type="radio" name="Beard shape" id="beard-shape-5">
+          <label for="beard-shape-5"><span>мудрец</span><img src="" width="" height=""></label>
+        </li>
+      </ul>
+
+      <ul class="main-form__checkbox">
+        <b class="main-form__checkbox-title">Дополнительные услуги:</b>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-1" checked>
+          <label for="additional-services-1">Покрасить бороду</label>
+        </li>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-2" checked>
+          <label for="additional-services-2">Накрутить усы</label>
+        </li>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-3">
+          <label for="additional-services-3">Причесать бороду</label>
+        </li>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-4">
+          <label for="additional-services-4">Подровнять виски</label>
+        </li>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-5">
+          <label for="additional-services-5">Убрать седину</label>
+        </li>
+        <li class="main-form__checkbox-item">
+          <input type="checkbox" name="Additional services" id="additional-services-6">
+          <label for="additional-services-6">Отполировать лысину</label>
+        </li>
+      </ul>
+      <input class="main-form__send-form  btn" type="submit" value="Отправить заявку">
+    </form>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="page-footer__contacts">
+          <b>Барбершоп «Бородинский»</b><br>
+          г. Санкт-Петербург, ул. Большая Конющенная 19/8<br>
+          <a href="tel:+78125556666"><span class="page-footer__contacts-hidden">Тел.:</span> +7 (812) 555-66-66</a>
+        </p>
+        <p class="page-footer__social">
+          <span class="social-links">
+            <a class="social-link  social-link--vk" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+            <a class="social-link  social-link--fb" href="https://facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            <a class="social-link  social-link--in" href="https://instagram.com/htmlacademy">Мы в Инстаграме</a>
+          </span>
+        </p>
+        <p class="page-footer__copyright">
+          Разработано:
+          <a class="btn  page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
